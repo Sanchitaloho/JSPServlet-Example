@@ -17,13 +17,13 @@
 		<nav class="nav" role="navigation">
 			<div class="container nav-elements">
 				<div class="branding">
-					<a href="#home"><img src="images/sclogo.png"
+					<a href="home"><img src="images/sclogo.png"
 						alt="Logo"></a>
 				</div>
 				<!-- branding -->
 				<ul class="navbar">
-					 <li><a href="html/register.html">new user?</a></li>
-					<li><a href="html/login.jsp">login</a></li>
+					 <li><a href="registerUser">new user?</a></li>
+					<li><a href="login">login</a></li>
 					<li><a href="Products">Products</a></li>
 					<!-- <li><a href="viewProfile">view my profile</a></li> --> 
 					<li><a href='About Us'>About Us</a></li>
@@ -46,10 +46,9 @@
      
     <div align="center" style="margin-top: 50px;">
     
- 	<h1>Simple Login Web Application using JSP/Servlet</h1>
+ 	<h1>Welcome To Home page</h1>
  	 
- 	<em>LOGIN USER</em><br><br>
-        <form action="LoginServlet" method="post">
+ 	        <form action="LoginServlet" method="post">
             Please enter your Username:  <input type="text" name="username" size="20px"> <br><br>
             Please enter your Password:  <input type="text" name="password" size="20px"> <br><br>
         <input type="submit" value="Login">
