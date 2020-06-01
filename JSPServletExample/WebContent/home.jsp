@@ -51,7 +51,7 @@
  	        <form action="LoginServlet" method="post">
             Please enter your Username:  <input type="text" name="username" size="20px"> <br><br>
             Please enter your Password:  <input type="text" name="password" size="20px"> <br><br>
-        <input type="submit" value="Login">
+        <input type="submit" value="Login">  // not required
        
         </form>
  

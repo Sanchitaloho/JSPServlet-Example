@@ -14,7 +14,7 @@ import com.jsp.dao.DBConnection;
 
 public class HomeServlet extends HttpServlet {
 	public Connection connection=null;
-	//lifecycle methods - init, service, destroy
+	//lifecycle methods -init, service, destroy
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("in doGET method");

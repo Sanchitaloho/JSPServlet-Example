@@ -15,10 +15,9 @@ public class LoginServlet extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//dispatch the request to login.jsp resource
-		RequestDispatcher dispatcher=req.getRequestDispatcher("/html/login.jsp");
+		RequestDispatcher dispatcher=req.getRequestDispatcher("/html/login.jsp"); //goto
 		dispatcher.include(req, resp);
-		
-		
+	
 	}
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
   	  String username = req.getParameter("username");
