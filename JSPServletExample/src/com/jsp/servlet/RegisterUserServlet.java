@@ -20,7 +20,7 @@ public class RegisterUserServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-		// collect all form data
+		//collect all form data from user
 		String username = req.getParameter("username");
 		String password = req.getParameter("password");
 		String firstName = req.getParameter("fname");

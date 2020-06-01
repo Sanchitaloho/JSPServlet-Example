@@ -5,16 +5,20 @@
     version="3.0">
     <display-name>JSPServletExample</display-name>
     <welcome-file-list>
-       
-        <welcome-file>index.html</welcome-file>
-        <welcome-file>home.jsp</welcome-file>
+       <!--  --> <welcome-file>index.html</welcome-file>
+      <!--<welcome-file>home.jsp</welcome-file>  -->  
     </welcome-file-list>
     <servlet>
-        <servlet-name>Hello</servlet-name>
-        <servlet-class>com.jsp.servlet.HelloUser</servlet-class>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>com.jsp.servlet.HomeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Hello</servlet-name>
-        <url-pattern>/LoginServlet</url-pattern>
-    </servlet-mapping>
+   	<servlet-name>HomeServlet</servlet-name>
+ 	 <url-pattern>/home</url-pattern>
+ 	 </servlet-mapping>
+ 	 
+ 	 <servlet-mapping>
+  <servlet-name>HomeServlet</servlet-name>
+  <url-pattern></url-pattern>
+  </servlet-mapping>
 </web-app>

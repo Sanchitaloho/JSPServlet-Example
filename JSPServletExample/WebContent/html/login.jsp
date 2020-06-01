@@ -1,14 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
-    "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<link rel="stylesheet" href="css/style.css">
- 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="css/style.css">
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title> Login Page</title>
 </head>
 
@@ -23,10 +19,10 @@
 				<!-- branding -->
 
 				<ul class="navbar">
-					<li><a href="home.jsp">home</a></li>
-       				  <li><a href="#products">products</a></li>
+					<li><a href="home">Home</a></li>
+       				  <li><a href="#products">Products</a></li>
      				  <li><a href="#search">search</a></li>
-       				 <li><a href="html/register.html">new user?</a></li>
+       				 <li><a href="registerUser">new user?</a></li>
        				 <li><a href="redirect">linkedIn</a></li>
 															
 				</ul>
@@ -46,10 +42,10 @@
      
     <div align="center" style="margin-top: 50px;">
     
- 	<h1>Simple Login Web Application using JSP/Servlet</h1><br>
+ 	<h1>LOGIN TO THE APPLICATION </h1><br>
  	 
- 	<em>LOGIN USER</em><br>
-        <form action="LoginServlet" method="post">
+ 	<!-- <em>LOGIN USER</em><br> -->
+        <form action="login" method="post">
             Please enter your Username:  <input type="text" name="username" size="20px"> <br><br>
             Please enter your Password:  <input type="text" name="password" size="20px"> <br><br>
         <input type="submit" value="Login">
